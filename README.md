@@ -5,3 +5,9 @@ This variant of multiple-TSP (called MinMax multiple-TSP) aims to equally distri
 In other words, we look to optimize a multi-objective problem, where the 2 objectives are:
  - minimize the cummulative cost of all the traveling salesmans
  - minimize the longest traveling salesman route
+
+## Test problems
+
+The problems used in this repository can be found here: https://profs.info.uaic.ro/~mtsplib/MinMaxMTSP/index.html, with also the best results found.
+
+Credits to the others of the article https://link.springer.com/chapter/10.1007/978-3-319-19644-2_22 that proposed this problem and published their results.
