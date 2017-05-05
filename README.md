@@ -12,6 +12,10 @@ In other words, we look to optimize a multi-objective problem, where the 2 objec
 
 The first approach we propose is a simple genetic algorithm, which incapsulates both objectives in one, with the same ratio (the fitness function is represented as the cummulative values of the overall cost and the minmax score). We introduced 2 different mutation operators, one that optimizes locally a single traveling salesman and one that optimizes the overall chromosome by playing with the length of the salesmans. The crossover is a form of PMX crossover on individual salesmans between chromosomes, but without a cut point, due to the lack of consistancy between same traveling salesmans from different chromosomes. We use a standard tournament based as the selection operator with elitism included.
 
+### Hill-climbing
+
+We will also run a hill-climbing approach for comparison purposes. We use as neightboring the mutation operators from the genetic algorithm. We keep the new value only if the fitness function is better. This is a random improvement hill-climbing approach.
+
 ## Test problems
 
 The problems used in this repository can be found <a href="https://profs.info.uaic.ro/~mtsplib/MinMaxMTSP/index.html">here</a>, with also the best results found.
