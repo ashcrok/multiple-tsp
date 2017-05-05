@@ -10,4 +10,4 @@ In other words, we look to optimize a multi-objective problem, where the 2 objec
 
 The problems used in this repository can be found <a href="https://profs.info.uaic.ro/~mtsplib/MinMaxMTSP/index.html">here</a>, with also the best results found.
 
-Credits to the others of the <a href="https://link.springer.com/chapter/10.1007/978-3-319-19644-2_22">article</a> that proposed this problem and published their results.
+Credits to the authors of the <a href="https://link.springer.com/chapter/10.1007/978-3-319-19644-2_22">article</a> that proposed this problem and published their results.
